@@ -4,7 +4,6 @@ import {
   DropdownMenu,
   DropdownMenuCheckboxItem,
   DropdownMenuContent,
-  DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { MoonIcon, SunIcon, SunMoon } from "lucide-react";
@@ -61,7 +60,6 @@ const ModeToggle = () => {
           Dark
         </DropdownMenuCheckboxItem>
       </DropdownMenuContent>
-      <DropdownMenuSeparator />
     </DropdownMenu>
   );
 };
