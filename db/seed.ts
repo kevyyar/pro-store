@@ -1,7 +1,5 @@
-import { PrismaClient } from "@prisma/client";
+import { prisma } from "./prisma";
 import sampleData from "./sample-data";
-
-const prisma = new PrismaClient();
 
 async function seed() {
   // delete all products
